@@ -4,7 +4,7 @@
     font-size: 16px;
 }
 #background{
-    background-image: url(/pexels-veeterzy-303383.jpg);
+    background-image: url("/pexels-veeterzy-303383.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -53,18 +53,58 @@
 .btn:active,.btn:hover{
     transition: 0.3s;
     cursor: pointer;
-    height: 15%;
+    height: 10%;
     width: 27%;
     border: #AF40FF;
 }
+@media only screen and (max-width:799px) {
+    .btn{
+
+        font-weight: 200;
+        font-size: 17px;
+        width: 26%;
+        padding: 2px;
+        
+    
+}
+.btn:active,.btn:hover{
+    height: 12%;
+    width: 27%;
+
+}
+}
+
+
+
 
 @media only screen and (max-width:499px) {
     .btn{
-        background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
-        font-family: 'Courier New', Courier, monospace;
+
         font-weight: 200;
-        font-size: 2px;
-        width: 25%;
+        font-size: 10px;
+        width: 23%;
+        padding: 0px;
+        
     
+}
+.btn:active,.btn:hover{
+    height: 10%;
+    width: 25%;
+
+}
+}
+@media only screen and (max-width:399px) {
+    .btn{
+        
+        font-weight: 200;
+        font-size: 10px;
+        width: 21%;
+        padding: 0px;
+        
+    
+}
+.btn:active,.btn:hover{
+    height: 15%;
+    width: 25%;
 }
 }
