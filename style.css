@@ -4,7 +4,7 @@
     font-size: 16px;
 }
 #background{
-    background-image: url("/pexels-veeterzy-303383.jpg");
+    background-image: url("./pexels-veeterzy-303383.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
